@@ -15,6 +15,6 @@
 	<classpathentry kind="lib" path="/home/digitalprizm/Downloads/JAVA JAR file/commons-logging-1.1.1.jar"/>
 	<classpathentry kind="lib" path="/home/digitalprizm/Downloads/JAVA JAR file/mysql-connector-java-5.1.19.jar"/>
 	<classpathentry kind="lib" path="/home/digitalprizm/Downloads/JAVA JAR file/mysql-jdbc-5.1.10.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/mariadb-java-client-1.7.0.jar"/>
+	<classpathentry kind="lib" path="/home/digitalprizm/Downloads/JAVA JAR file/mariadb-java-client-1.7.0.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

@@ -56,7 +56,7 @@ public class UserRegistration extends HttpServlet {
    		password = request.getParameter("password");
    		email = request.getParameter("email");
    		mobileno = request.getParameter("mobileno");
-   		
+   		System.out.println("get data");
 		con = DbConnection.getConnection();
 		Statement statement = con.createStatement(); 
 	    statement.executeUpdate("insert into Address values('"+fname+"','"+lname+"','"+email+"','"+mobileno+"','"+uname+"','"+password+"')");

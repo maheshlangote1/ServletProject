@@ -33,4 +33,13 @@
     <servlet-name>hellouser</servlet-name>
     <url-pattern>/Servlate/HelloUser</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>boot</servlet-name>
+    <servlet-class>com.BootstrapRegistration</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>boot</servlet-name>
+    <url-pattern>/Servlate/BootstrapRegistration</url-pattern>
+  </servlet-mapping>
 </web-app>

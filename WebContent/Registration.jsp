@@ -8,50 +8,50 @@
 
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="bootstrap/bootstrap-3.3.7/dist/css/bootstrap.min.css">
-  <script src="bootstrap/bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
+  <style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+</style>
 </head>
 <body>
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Java Servlet</a>
+<nav >
+  <div >
+    <div>
+      <a href="#">Java Servlet</a>
     </div>
-    <ul class="nav navbar-nav">
+    <ul >
       <li class="active"><a href="index.jsp">Home</a></li>
     </ul>
   </div>
 </nav>
-<h2 align="center">Registration Form</h2>
+<h1>Registration Form Without Bootstrap</h1>
 <form action="UserRegistration" method="post">
-<div class="container">
-<table class="table table-bordered">
-    <thead>
-      <tr>
-        <th>First Name</th>
-        <td><input type="text" placeholder="First name" name="fname" required></td>
-        <th>Last Name</th>
-        <td><input type="text" placeholder="Last Name" name="lname" required></td>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th>Email</th>
-        <td><input type="text" placeholder="Email" name="email" required></td>
-        <th>Mobile</th>
-        <td><input type="text" placeholder="Mobile Number" name="mobileno" required></td>
-      </tr>
-      <tr>
-        <th>User Name</th>
-        <td><input type="text" placeholder="user name" name="uname" required></td>
-        <th>Password</th>
-        <td><input type="password" placeholder="Password" name="password" required></td>
-      </tr>
-        
-    </tbody>
-  </table>
-  <input  type="submit" name="submit" value="SUBMIT">
-  </div>
+<table style="width:100%">
+  <tr>
+    <th>First Name</th>
+    <td><input type="text"  name="fname"></td> 
+    <th>Last Name</th>
+    <td><input type="text"  name="lname"></td>
+  </tr>
+  <tr>
+    <th>Email</th>
+    <td><input type="text"  name="email"></td> 
+    <th>Mobile Number</th>
+    <td><input type="text"  name="mobileno"></td>
+  </tr>
+  <tr>
+    <th>User Name</th>
+    <td><input type="text"  name="uname"></td> 
+    <th>Password</th>
+    <td><input type="password"  name="password"></td>
+  </tr>
+</table><br>
+<br>
+<p align="center">
+<input type="submit" name="submit" value="SUBMIT">
+</p>
 </form>
 </body>
 </html>
